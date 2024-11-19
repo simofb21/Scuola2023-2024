@@ -1,0 +1,8 @@
+Indirizzi Logici:  sono generati dal processore all' inizio del programma . Non dipendono dall' hardware. Sono usati dal OS e dai processi per riferersi alla memoria, in quanto sono relativi all' inizio del programma.
+
+Indirizzi Fisici: Sono legati alla memoria fisica, rappresentano le effettive posizioni di memoria su chip di ram, o altre memorie. L' OS mappa da indirizzi logici a fisici per accedere effettivamente alla memoria. 
+
+Indirizzi Virtuali:Sono un' astrazione fornita dall' OS ai processi in esecuzione. 
+Ogni processo ha un suo spazio di indirizzamento virtuale, tutto suo. Esiste il meccanismo di gestione della memoria nell ' OS che mappa dinamicamente agli indirizzi fisici della memoria. 
+
+Indirizzi Simbolici: Si usano in programmazione, si riferiscono a nomi, etichette (es  variabili), anziché posiizione effettiva di memoria fisica.

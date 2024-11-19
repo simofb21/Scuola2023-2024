@@ -1,0 +1,6 @@
+con ls-l vedo i permessi che ho 
+si riferiscono a 3 a 3
+
+per modificare devo fare chmod + (iniziale tipo permesso modificare) nomeFIle
+Es chmod g -w prova Toglie al gruppo il permesso di scrittura
+pipe: output comando dato come input al sucessivo

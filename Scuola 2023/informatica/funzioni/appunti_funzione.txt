@@ -1,0 +1,16 @@
+Sono comode quando c' è un riuso continuo di codice
+- va dichiarata
+-si separa la definizione dalla funzionalità
+Es : come una specie di scatola 
+min--------->
+.max.........> leggi .............>out : un valore tra min e max
+ Chiamata: 
+  la funzione può essere chiamata più volte e può restiture un return col valore di chiamata , può anche no però
+  I parametri che mettiamo nella tonda della funzione , sono delle nuove variabili e che possono essere usate nella funzione, ma non c' entra con i valori dei parametri nel main
+  
+  vedi struttura funzione (se non ha parametri uso  parole chiave void) 
+  > la variabile che uso all' interno della funzione la uso solo dentro la funzione
+  l' istruziojne return in questo caso metterla > 
+  procedure=funzioni che non restitusicono i
+IL VOID NON RESTITUISCE RISULTATO : 
+ES una funzione che stampa 3 volte ciao;

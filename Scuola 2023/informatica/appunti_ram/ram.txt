@@ -1,0 +1,19 @@
+RAM  una riga ha 1 byte , 8 bit
+quando in c scrivo char a; un char occupa un byte.
+Il sistema predispone uno spazio in ram per mettere quel byte.
+int b; occupa 4byte ossia 32 bit .
+legate a una variabile abbiamo 2 info: nome simbolico, indirizzo di variabille , ossia dove si trova ,  e l' indirizzo simboloci, indirizzo fisico, ossia il valore che ha la variabile+
+
+E' possibile memorizzare le variabili in due posti diversi: 
+	stack;
+	heap;
+>va a cercare nell' indirizzo
+
+variabill: nome , tipo(int...), valore(es20), indirizzo(dove si trova in ram)
+
+Per scoprire l' indirizzo metto & >ad esempio nella scanf
+L' indirizzo è sempre diverso(a volte)
+Il valore dell ' indirizzo lo posso memorizzare. 
+
+Usare un nuovo tipo di variabile , che contiene un indirizzo , ossia un puntatore. La sintassi è  int *poin; (poin è il nome variabile), int specifica che tipo di dato è puntato da poin
+poin=&num; memorizza in poin l' indirizzo di num																																																																		

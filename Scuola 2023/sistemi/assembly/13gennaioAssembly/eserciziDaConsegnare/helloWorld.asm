@@ -1,0 +1,16 @@
+.model small
+.stack
+.data
+    msg DB "Hello World!$"
+    
+.code
+mov ax, @data
+mov ds, ax
+
+lea dx, msg          ;preparo l' indirizzo della variabile msg in dx
+mov ah, 9            ;chiamata al servizio del DOS per stampare una stringa
+int 21h
+
+mov ah,4ch
+int 21h
+end

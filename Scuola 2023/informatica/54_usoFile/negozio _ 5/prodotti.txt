@@ -1,0 +1,11 @@
+Pasta 300 2024
+Spaghetti 500 2021
+Penne 400 2025
+Farfalle 350 2006
+Fusilli 300 2025
+Linguine 450 2032
+Tagliatelle 250 2025
+Rigatoni 300 2025
+Orecchiette 200 2019
+Conchiglie 350 2005
+Maccheroni 400 2015

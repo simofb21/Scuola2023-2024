@@ -1,0 +1,16 @@
+SUlla CPU: 
+ 	Cu controllo, coordina le subordinità ,e Lcu che coordinaa solo alu
+	ALu: unità aritmetico logica, esegue i calcoli e ha il metodo per farli all' interno
+	ciclo macchina: 
+fetch delle istruzioni : preleva lì istruzione nellla memoria
+decode : capisce cosa fare con la istruzione e capisce se servono operandi
+fetch operandi: va a prenderli dalla memoria e carica in registro 
+Execute: esegue i comandi , 
+Write bacK : finisce e resetta per prepararsi al ciclo sucessivo
+Registri: 
+	MAR : indirizzi di memoria > ram 
+	MDR: memorizza i dati caricati dall ram che servono a alu per istruzione
+	IR : contiene istruzioni che deve fare a cpu, serve a alu per capire che istruzione deve fare
+TSW: registro dei flag: mette a 1 se succede qualcosa 
+<esempio resto , overfloaw
+registri general purpose: senza scopo specifico

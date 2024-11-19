@@ -1,0 +1,18 @@
+- guardare materiale su classroom:
+-saper individuare componenti su scheda di arduino
+-sensori, attuatori, conoscere tutti i componenti visti in laboratorio, vedere il tutorial , che spiega anche quale componente usi e i principi fisici relativi al componente.( vedere bene, e cosa percepiscono)
+- vedere le funzioni inserite nella learning app fatta 31/02/2024, per studiare, le funzioni di arduino , quali sono, cosa fanno , oltre a quelle della learning app, vedere funzioni: tone,   
+-come trattare tutorial:
+  .vedere cenno teorico
+  .vedere principi fisici
+  .differenza tra sensore(misuura grandezze fisiche)  e attuatore (mette in atto un ' azione, es led che emette luce)
+  .codice preso da tutorial, rivedere perché è commentato
+  .potrebbe essere piccole parti di codice da scrivere
+-vedere materiale di supporto ad ogni lezione, es dove spiega parti in cui ho preso codice 
+perché resistenza di protezione a led? per evitare di bruciare il led, altrimenti gli arriva troppa tensione
+-descrizione scheda e sapere quali sono parti prncipali di arduino ( bene) 
+dispensa di arduino su classroom messa dalla tacca
+. variabili e costanti messe sempre qua
+. focus su struttura generale , differenza tra set up e loop
+. vedere bene dispensa
+_no segnali 

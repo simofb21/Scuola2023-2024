@@ -1,0 +1,4 @@
+4 pin per la tastierina, 
+1 pin per buzzer
+ogni pulsante 1 pin ( ne servono 7)
+1 per display

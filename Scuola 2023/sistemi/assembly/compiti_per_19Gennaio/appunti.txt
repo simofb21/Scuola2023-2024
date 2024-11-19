@@ -1,0 +1,4 @@
+esercizio verifica:
+dato codice assembly, dire o disegnare cosa succede in ram,  i registri ecc....
+
+cosa cambia tra un mov ax e lea ax

@@ -1,0 +1,73 @@
+@font-face {                              /*font*/
+    font-family: "titoli";
+    src: url('../font/BAUHS93.TTF');
+    font-weight: normal;
+  }
+  @font-face{
+    font-family: "paragrafo";
+    src: url('../font/Roboto-Light.ttf');
+  }
+h1,h2{
+    font-family: "titoli";
+    text-align: center;
+}
+h1{
+ text-align: center;
+ text-decoration:underline;
+ font-size: 5rem;
+ font-weight: larger;
+
+ margin-bottom:3rem;
+}
+.par>p{
+ font-size:2rem;
+ text-align: center;
+ font-style: italic;
+ margin-bottom:5rem;
+ 
+}
+p{
+    font-family: "paragrafo";
+}
+body{
+    background: linear-gradient(150deg, #2b716a, #452bae)
+}
+#container{
+    max-width: 70rem;
+    margin:0 auto;
+    border-left:1px solid black;
+    padding-left:3rem;
+    padding-right: 3rem;
+    border-right:1px solid black;
+}
+h2{
+    color:rgb(0, 0, 0);
+}
+
+.adjective>p{
+    text-align: justify;
+}
+.adjective {
+    margin: 0 auto;
+    border-radius: 0.5em;
+    max-width: 30rem;
+    margin-bottom: 5rem;
+    border: 0.3em solid black;
+    padding: 1rem;
+    background: linear-gradient(60deg,#0d7674, #1c0fd1);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.adjective:hover {
+    background: linear-gradient(60deg, #8800ff, #d3cf06);
+    color: white;
+}
+
+.footer{
+    margin: 0 auto;
+}
+a{
+    color:white;
+    text-decoration:none;
+}

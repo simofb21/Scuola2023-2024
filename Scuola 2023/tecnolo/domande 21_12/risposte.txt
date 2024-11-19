@@ -1,0 +1,28 @@
+Fusar Bassini Simone 
+
+1)GIf è un formato di immagini che consente le animazioni. Quando comprimi i gif non perdono informazioni
+Jpg è usato per le immagini di alta qualità. Invece perdono informazioni
+
+2)I livelli su GIMP sono componenti individuali di un'immagine che possono essere modificati separatamente. Ogni livello può contenere parte dell'immagine e può essere regolato indipendentemente dagli altri. Servono per lavorare e organizzare al meglio un' immagine.
+
+3)Si' si potrebbe saperlo nelle immagini bmp.
+
+4)Serve per scontornare automaticamente un ' immagine.
+
+5)Una gif è una sequenza di immagini, ma  in un breve tempo . Un video ,è fatto da frame , per tempi più lunghi.
+
+6)La formula per calcolare il peso di un file audio è:
+ Peso (in byte) = Frequenza di campionamento * bit di profondità * numero di canali * durata in secondi. 
+Applicando la formula, avremo: Peso = 44100 * 24 * 2 * 5 = 21.168.000 byte (circa 21 MB).
+
+7)Il campionamento è il processo di misurazione di un segnale analogico a intervalli regolari nel tempo. I suoni vengono campionati per convertire segnali audio continuamente variabili in dati digitali.
+
+8)Lossy:compressione con perdita di qualità o informazioni...
+Lossless:Compressione senza alcuna perdita
+
+9)Vettoriale: Viene salvato in memoria il procedimento per ricostruire l' immagine, occupano meno spazio e non s deformano.
+Raster: Sono riempite px a px, quindi la qualità dipende anche dalla definizione, e ad esempio zoomando riconosco i pixel, quindi perde qualità
+
+10)Il framerate è il numero di frame visualizzati in un  secondo , si misura in fps. 
+
+

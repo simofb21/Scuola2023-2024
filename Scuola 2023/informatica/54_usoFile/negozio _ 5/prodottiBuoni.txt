@@ -1,0 +1,7 @@
+Pasta 300 2024
+Spaghetti 500 2021
+Penne 400 2025
+Fusilli 300 2025
+Linguine 450 2032
+Tagliatelle 250 2025
+Rigatoni 300 2025

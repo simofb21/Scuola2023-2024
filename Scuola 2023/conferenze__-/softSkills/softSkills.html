@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simone - La mia pagina</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+    <div id="container">
+        <h1>Simone Fusar Bassini</h1>
+        <div class="par" id="intro">
+            <p>Ciao, sono Simone e sono...</p>
+        </div>
+        <div class="adjectives">
+            <div class="adjective" onclick="toggleDescription(this)">
+                <h2>Affidabile</h2>
+                <p class="description" style="display: none;">Sono degno di fiducia, sono abbastanza responsabile, la gente si fida di me e mi affida incarichi... probabilmente perché trasmetto una certa "sicurezza", che in realtà non ho.</p>
+            </div>
+            <div class="adjective" onclick="toggleDescription(this)">
+                <h2>Lavoratore</h2>
+                <p class="description" style="display: none;">Come dice una delle mie filosofie di vita, il lavoro duro viene sempre ripagato. Ho fatto tanti sacrifici e duro lavoro per arrivare dove sono ora (da nessuna parte), ma sto continuando in silenzio a lavorare. Macinare km, studiare, e rifarlo ancora.</p>
+            </div>
+            <div class="adjective" onclick="toggleDescription(this)">
+                <h2>Sopportatore</h2>
+                <p class="description" style="display: none;">Non a livello emotivo, spesso mi arrabbio anche per delle "stupidate", ma a livello fisico sicuramente sì. Tutta la strada fatta, ha portato tanta sofferenza, ci sono volte che pur di non mollare, ho continuato col mio dolore, anche a costo di non camminare il giorno dopo. Quindi penso di Sopportatore, così come sopporto tante cose che non mi stanno bene in questo momento, ma me le faccio andare bene comunque.</p>
+            </div>
+            <div class="adjective" onclick="toggleDescription(this)">
+                <h2>Rompiscatole</h2>
+                <p class="description" style="display: none;">Sono puntiglioso, ma soprattutto rompiscatole. Mi piace che ogni dettaglio sia apposto, cerco di renderlo apposto, se qualcuno non fa come me, gli rompo le scatole, a volte. <br>Come per esempio se certi miei compagni in bici fanno qualcosa che non dovrebbero, vanno a velocità che non dovrebbero ecc..., sono io a dire di andare apposto.</p>
+            </div>
+            <div class="adjective" onclick="toggleDescription(this)">
+                <h2>Pensieroso</h2>
+                <p class="description" style="display: none;">Penso troppo, infatti mi faccio un sacco di problemi, su robe che mi creo io. Però allo stesso tempo rifletto molto, e penso di saper molto, rifletto prima di agire (non sempre) e questo è un bene in certe situazioni.</p>
+            </div>
+            <div class="adjective" onclick="toggleDescription(this)">
+                <h2>Empatico</h2>
+                <p class="description" style="display: none;">Mi riesco ad immedesimare molto nelle persone, riesco a capire i loro punti di vista, problemi... Non riesco a risolverli magari, però cerco di fare del mio meglio.</p>
+            </div>
+            <div class="adjective" onclick="toggleDescription(this)">
+                <h2>Ottimista</h2>
+                <p class="description" style="display: none;">Cerco di trovare sempre il lato positivo in ogni situazione, anche quando tutto va male. Penso sempre che prima o poi tutto quello che va male finirà, vedo sempre il bicchiere mezzo pieno. Per esempio penso che è sempre meglio fare qualcosa, anche se sbagliata, sempre meglio di niente....</p>
+            </div>
+            <div class="adjective" onclick="toggleDescription(this)">
+                <h2>Sincero</h2>
+                <p class="description" style="display: none;">Non sono un "caciabale" , o almeno, so quando devo non esserlo (sempre). Quello che ho scritto ora, l'ho tirato fuori tutto io, come l'ho mostrato no().</p>
+            </div>
+            <!-- Aggiungi altri div adjective qui... -->
+        </div>
+        <div class="par">
+            <p>Se vuoi scoprire qualcos' altro in più su di me, <a href="https://fb-bike.it/home/chiSiamo.html">clicca qui</a></p>
+        </div>
+    
+    <div class="footer">
+        <p>Made by Simone Fusar Bassini | Contattami: <a href="mailto:simone@fb-bike.it">simone@fb-bike.it</a> | © 2024</p>
+    </div>
+</div>
+    <script>
+        function toggleDescription(element) {
+            var description = element.querySelector('.description');
+            
+            if (description.style.display === 'none' || description.style.display === '') {
+                description.style.display = 'block';
+            } else {
+                description.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

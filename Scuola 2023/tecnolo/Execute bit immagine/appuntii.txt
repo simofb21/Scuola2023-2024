@@ -1,0 +1,17 @@
+i primi 2 sono BM  ossia estensione, poi 
+ 4 byte sono per la dimensione  file > 5a = 90 byte
+dopo di che  8a 00 00 00 >offset : ossia mappa di pixel sui colori da qui leggi info su colori dalla posizione 
+36 posizioni occupate  offset mappa di pixel sui colori, da qui parto a leggere informazioni  di pixel sui colori
+per ogni pixel usato  io uso 3byte > 1byte per colore , 1rosso, uno verde, 1blu > perché la profondità è 24, ossia in rgb
+poi ci sono numero di pixel per larghezza e altezza 
+ 18 profondità di colore : numero di pixel per colore > corrisponde al 24 in decimale. perchè 18 e' in hexa
+
+come lo vedo scritto io e' come se fosse scritto in bgr
+I byte vanno ribaltati di posizione  per leggerlo in rgb
+
+Dalla posizione in cui inziano le informazioni sui colori : 
+i primi dati che ho sono per l' ultimo quadratino , ossia quello in basso a dx , ed è 00 00 00 , quindi nero, poi c' è il bianco, poi il grigio, poi magenta, poi ciano... ,....
+
+larghezza* altezza * nByte (per pixel) > riconduce al disegno 
+
+se io ho 6 byte per riga ci sono 2 bytre riempitivi, perché devo avere un multiplo di 8 

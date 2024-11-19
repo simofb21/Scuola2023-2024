@@ -1,0 +1,27 @@
+Cos è un' automa?
+Un automa è una macchina che ripete in maniera automaticas  delle operazioni, senza che lo faccia un uomo
+Automa a stati finiti
+é un Sottoinsieme dinamico (dotato di memoria) di un sistema Es(macchina del caffe registra quanti soldi ho inserito)
+è invariante, discreto negli avanzamenti(non continuo)
+è composto da : tempo, i variabili di ingresso, variazioni degli ingressi, variabili di uscite, insieme delle varaibili delle uscite
+Deterministici 
+Automi propri di Moore(uscite dipendono solo dagli stati, )
+Uscita in un determinato tempo, dipende solo dallo stato precedente(es semaforo)
+Automa  di Mealy inpropri(dipende anche dagli ingressi) es macchinetta caffe 
+esempio di automa improprio di Mealy 
+________________________________________________________________
+STATI   |	 INGRESSI |
+_______	|	 _______________________________________________|
+  		     1   |		2 	|	
+_______________________________________________________________	|
+terra  	|	 terra/ferma|	primo/sale|	secondo,sale	|
+______________________________________________________________ __	
+primo	|	terra,scende|	primo,ferma|	secondo,sale	|
+_______	|________________________________________________________
+secondo	|	terra,scende|	primo,scende|	secondo,ferma	|
+________|________________________________________________________
+
+
+Vi(variazione di ingresso)=T,1,2
+Vu(variazioni di uscita)= SALE,SCENDE,FERMA
+Stati= terra, primo,secondo

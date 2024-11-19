@@ -1,0 +1,19 @@
+Una volta creata la struttura:
+rimanendo in home
+1) Cancellare il contenuto della cartella Ayas senza spostarsi dalla cartella attuale:
+rm -d MONTI/Ayas
+2)Creare un file di nome CANTINE nella cartella Marsala 
+touch MARE/Marsala/CANTINE
+3)Copiare la cartella Morbegno e tutto il suo contenuto in una nuova cartella VALTELLINA
+cp -r MONTI/Morbegno MONTI/Valtellina
+4)chmod go+w MONTI/Valtellina
+5)TOgliere gli accessi : tutto per user, solo lettura per group , nulla per other
+chmod 740 MONTI/Valtellina (con i numerini)
+parte 2 
+simofubuntu@Simone:~/home$ cd MARE/Pesaro
+simofubuntu@Simone:~/home/MARE/Pesaro$ cp ../Marsala/CANTINE CANTINE
+
+parte 4)
+contrare quante cose :  wc -l valigia (conto righe)+
+ sort -k3 -n valigia (ordinare k3 va nella 3à colonna, -n perché è numero )
+ sort -k3 -n valigia | tail -1 prendo l' ultima riga dato che ho ordinato  e mi stampa le informazioni

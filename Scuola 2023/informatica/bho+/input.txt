@@ -1,0 +1,6 @@
+marco 10
+gianni 20
+luca 20
+filippo 15
+giacomo 52
+marta 120

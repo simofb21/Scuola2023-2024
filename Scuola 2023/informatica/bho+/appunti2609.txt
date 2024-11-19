@@ -1,0 +1,205 @@
+scaricare dev c++ come ambiente di sviluppo , ide, oppure usa vscode e un compilatore. 
+nome file senza spazi, l' estensione è .c
+vai su google sito di dev c++ blueshild 
+scarica dev c++5 oppure  la versione portabile
+oppure alternative 
+altri ambienti di sviluppo 
+vscode editor
+e scaricaci plug in per compilare di solito ce ne sono diverse di estensione 
+per configurare ed usare la configurazione 
+scarica estensione code runner (icona .run) e puoi usare quasi tutti  i compilatori
+meglio usare vscode e compilatore
+Contenuto costante: il valore una volta inizializzato non viene modificato nel corso del programma 
+scrivo const e poi dichiaro normalmente variabile , scrivendo tutto in maiuscolo.
+All' inizio insieme a include metto #define <costante> <valore>, senza dichiarare la variabile
+Esempio: #define PI=3.1415926 oppure ad esempio includendo la libreria math.h  , e scrivendo nel modo giusto pi, riesco lo  stesso     
+operatori per i calcoli:
++
+-
+/ (in una divisione tra interi da risultati interi, quindi tronca)    , in double/float fa normale
+a%b 	resto di a/b in interi
+-(cambio segno)
+++ incremento
+-- decremento			> tra interi, incrementa di una unità ES c=a++ incrementa c ma poi fa a++
+Conversione ad intero	
+int(a) considera a come intero anche se contiene un decimale (arrotonda sempre per difetto)
+float(N) considera n come float, utile per avere un risultato decimale da valori interi		es int a int b float c c=(float)(a/b);
+funzioni di math.h
+sqrt,ceil(arrotonda eccesso)floor(per difetto), round arrotonda in generale, fabs dice il valore assoluto
+parentesi cambiare ordine operatori, uso più tonde
+Controllo del flusso:									
+in  alcuni casi vogliamo che il flusso cambi, ed esegua alcune parti solo se richiesto eccc.. è deciso dall' utente
+scelta: if>in base a quello fa operazioni
+nell' if: operatori ==; !=(diverso), >,<,<= >=
+in c si scrive 
+if(condizione){
+	istruzioni se fosse vero;
+}
+else{
+	istruzioni ramo falso;
+}
+
+per stampare numero limitato di cifre dicimale %nf es %3f (3 cifre decimali)
+INCLUDO LIBRERIA <stdbool.h>
+
+GIochi : c' è sempre numero casuale
+probabilità /statistica		
+simulazioni	
+geometria frattale 
+non può generare numeri a caso, ma numeripseudocasuali , fatti con algoritmi>
+								partono da un seme > gli da in pasto un numero> le finisce 
+In c si dice 
+rand() 
+rand()%10  : genera casuali tra 0 e 9
+rand()%5+1 (es da 1 e 5)
+rand()%6+1 per il dado ad esempio
+
+libreria 
+<stdlib.h>
+inizialiggiare il generatore con un seme
+srand(5)
+Il generatore parte con valore 5
+Invece per definire un altro valore cassuale iniziale
+includi la libreria <time.h>
+	funzione time(0) restituisce il numero che va messo dentro srand
+Conclusione:
+quando devo generare casuali, includo le 2 librerie
+all inizio s rand time 0
+differenza tra do while e while, che nel do la verifica la fa dopo mentre nel while la verifica la fa prima
+BREAK FA TERMINARE IL CICLO
+Tipo di numeri
+char:1byte,int, short int, long int >altri dipende da architettura e compilatore
+int almeno 16 , non meno di short>32
+short almeno 16>16
+long almeno 32 >64
+ tipo di dato :  c'è anche unsign così non usa segno
+
+variabile limits.h  definisce costanti relative al range dei tipi interi (dipendono dal compilatore, tra parentesi)
+tipi di floating -point 
+float 7 cifre sign
+double 16
+sempre e comunque approssimata
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																																																																																																																																																																																																																																																																																									
